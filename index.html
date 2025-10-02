@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéCards Pro - Tienda de Cartas Pokémon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div class="container">
+            <div class="navegacion-marca">
+                <div class="logo">⚡</div>
+                <span class="nombre-marca">PokéCards Pro</span>
+            </div>
+            <nav class="navegacion-menu">
+                    <a href="#" class="navegacion-enlace activo">Inicio</a>
+                    <a href="./pages/catagolo.html" class="navegacion-enlace">Catalogo</a>
+                    <a href="./pages/carrito.html" class="navegacion-enlace active">Carrito</a>
+                    <a href="./pages/perfil.html" class="navegacion-enlace">Perfil</a>
+                    <a href="./pages/contacto.html" class="navegacion-enlace">Contacto</a>
+            </nav>
+            <div class="navegacion-acciones">
+                <div class="caja-busqueda">
+                    <input type="text" placeholder="Buscar cartas..." class="entrada-busqueda">
+                    <span class="icono-busqueda">🔍</span>
+                </div>
+                <button class="boton-icono">❤️</button>
+                <button class="boton-icono">🛒</button>
+                <button class="boton-icono">👤</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="seccion-principal">
+        <div class="container">
+            <h1 class="principal-titulo">
+                La Mejor Colección de
+                <span class="text-primary">Cartas Pokémon</span>
+            </h1>
+            <p class="principal-descripcion">
+                Descubre cartas raras, holográficas y ediciones especiales. Construye tu colección perfecta con nosotros.
+            </p>
+            <div class="principal-botones">
+                <button class="btn btn-primary">Explorar Cartas</button>
+                <button class="btn btn-outline">Ver Colecciones</button>
+            </div>
+            <div class="principal-estadisticas">
+                <div class="estadistica">
+                    <div class="estadistica-numero">10K+</div>
+                    <div class="estadistica-etiqueta">Cartas Disponibles</div>
+                </div>
+                <div class="estadistica">
+                    <div class="estadistica-numero">5K+</div>
+                    <div class="estadistica-etiqueta">Clientes Felices</div>
+                </div>
+                <div class="estadistica">
+                    <div class="estadistica-numero">99%</div>
+                    <div class="estadistica-etiqueta">Autenticidad</div>
+                </div>
+                <div class="estadistica">
+                    <div class="estadistica-numero">24h</div>
+                    <div class="estadistica-etiqueta">Envío Rápido</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categorias">
+        <div class="container">
+            <h2 class="titulo-seccion">Categorías Populares</h2>
+            <div class="categorias-cuadricula">
+                <div class="tarjeta-categoria">
+                    <div class="icono-categoria">⚡</div>
+                    <h3>Cartas Base</h3>
+                    <p>150 cartas</p>
+                </div>
+                <div class="tarjeta-categoria">
+                    <div class="icono-categoria">✨</div>
+                    <h3>Holográficas</h3>
+                    <p>89 cartas</p>
+                </div>
+                <div class="tarjeta-categoria">
+                    <div class="icono-categoria">🔥</div>
+                    <h3>GX/EX</h3>
+                    <p>45 cartas</p>
+                </div>
+                <div class="tarjeta-categoria">
+                    <div class="icono-categoria">💎</div>
+                    <h3>VMAX</h3>
+                    <p>23 cartas</p>
+                </div>
+                <div class="tarjeta-categoria">
+                    <div class="icono-categoria">🏆</div>
+                    <h3>Promocionales</h3>
+                    <p>67 cartas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cartas-destacadas">
+        <div class="container">
+            <div class="encabezado-seccion">
+                <h2 class="titulo-seccion">Cartas Destacadas</h2>
+                <button class="btn btn-outline">Ver Todas</button>
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/charizard-vmax-pokemon-card-holographic.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Charizard VMAX</h5>
+                            <p class="card-text">Secret Rare</p>
+                            <p class="card-text">$299.99</p>
+                            <a href="#" class="btn btn-primary">Agregat al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/pikachu-vmax-pokemon-card-electric.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pikachu VMAX</h5>
+                            <p class="card-text">Ultra Rare</p>
+                            <p class="card-text">$189.99</p>
+                            <a href="#" class="btn btn-primary">Agregat al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/mewtwo-gx-pokemon-card-psychic.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mewtwo GX</h5>
+                            <p class="card-text">GX Rare</p>
+                            <p class="card-text">$149.99</p>
+                            <a href="#" class="btn btn-primary">Agregat al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="caracteristicas">
+        <div class="container">
+            <h2 class="titulo-seccion">¿Por qué elegirnos?</h2>
+            <div class="caracteristicas-cuadricula">
+                <div class="caracteristica">
+                    <div class="icono-caracteristica">🛡️</div>
+                    <h3>100% Auténticas</h3>
+                    <p>Todas nuestras cartas son verificadas y garantizamos su autenticidad</p>
+                </div>
+                <div class="caracteristica">
+                    <div class="icono-caracteristica">🚚</div>
+                    <h3>Envío Rápido</h3>
+                    <p>Envío en 24-48 horas con embalaje seguro y protegido</p>
+                </div>
+                <div class="caracteristica">
+                    <div class="icono-caracteristica">🏆</div>
+                    <h3>Mejor Precio</h3>
+                    <p>Precios competitivos y ofertas exclusivas para coleccionistas</p>
+                </div>
+                <div class="caracteristica">
+                    <div class="icono-caracteristica">👤</div>
+                    <h3>Soporte 24/7</h3>
+                    <p>Atención al cliente especializada en TCG disponible siempre</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="boletin">
+        <div class="container">
+            <h2>¡No te pierdas las novedades!</h2>
+            <p>Suscríbete y recibe ofertas exclusivas y noticias sobre nuevas cartas</p>
+            <div class="formulario-boletin">
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">@</span>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
+                <button type="button" class="btn btn-secondary">Suscribete</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="pie-pagina">
+        <div class="container">
+            <div class="pie-pagina-contenido">
+                <div class="pie-pagina-seccion">
+                    <div class="pie-pagina-marca">
+                        <div class="logo">⚡</div>
+                        <span class="nombre-marca">PokéCards Pro</span>
+                    </div>
+                    <p>Tu tienda de confianza para cartas Pokémon auténticas y coleccionables.</p>
+                </div>
+                <div class="pie-pagina-seccion">
+                    <h3>Tienda</h3>
+                    <ul>
+                        <li><a href="#">Cartas Nuevas</a></li>
+                        <li><a href="#">Ofertas</a></li>
+                        <li><a href="#">Colecciones</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                    </ul>
+                </div>
+                <div class="pie-pagina-seccion">
+                    <h3>Soporte</h3>
+                    <ul>
+                        <li><a href="#">Centro de Ayuda</a></li>
+                        <li><a href="#">Envíos</a></li>
+                        <li><a href="#">Devoluciones</a></li>
+                        <li><a href="./pages/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="pie-pagina-seccion">
+                    <h3>Síguenos</h3>
+                    <div class="enlaces-redes">
+                        <a href="#">📘</a>
+                        <a href="#">🐦</a>
+                        <a href="#">📷</a>
+                        <a href="#">📺</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pie-pagina-inferior">
+                <p>&copy; 2024 PokéCards Pro. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Catálogo - PokéCards Pro</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="../styles/styles.css">
+    </head>
+    <body>
+        <div class="formato-universal">
+            <header class="encabezado">
+                <div class="container">
+                    <div class="navegacion-marca">
+                        <div class="logo">⚡</div>
+                        <span class="nombre-marca">PokéCards Pro</span>
+                    </div>
+                    <nav class="navegacion-menu">
+                        <a href="../index.html"
+                            class="navegacion-enlace">Inicio</a>
+                        <a href="#"
+                            class="navegacion-enlace activo">Catalogo</a>
+                        <a href="./carrito.html"
+                            class="navegacion-enlace">Carrito</a>
+                        <a href="./perfil.html"
+                            class="navegacion-enlace">Perfil</a>
+                        <a href="./contacto.html"
+                            class="navegacion-enlace">Contacto</a>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="container pagina-catalogo">
+                <div class="cabecera-pagina">
+                    <h1 class="titulo-pagina">Catálogo de Cartas Pokémon</h1>
+                    <p class="descripcion-pagina">Descubre nuestra colección
+                        completa de cartas Pokémon</p>
+                </div>
+
+                <div class="seccion-filtros">
+                    <div class="cabecera-filtros">
+                        <span class="icono-filtro">🔍</span>
+                        <h2>Filtros</h2>
+                    </div>
+                    <div class="cuadricula-filtros">
+                        <div class="grupo-filtro">
+                            <input type="text" id="searchInput"
+                                placeholder="Buscar cartas..."
+                                class="input-filtro">
+                        </div>
+                        <div class="grupo-filtro">
+                            <select class="select-filtro">
+                                <option value="all">Todos los tipos</option>
+                                <option value="Fuego">Fuego</option>
+                                <option value="Eléctrico">Eléctrico</option>
+                                <option value="Psíquico">Psíquico</option>
+                                <option value="Dragón">Dragón</option>
+                                <option value="Incoloro">Incoloro</option>
+                                <option value="Metal">Metal</option>
+                            </select>
+                        </div>
+                        <div class="grupo-filtro">
+                            <select class="select-filtro">
+                                <option value="all">Todas las rarezas</option>
+                                <option value="V">V</option>
+                                <option value="VMAX">VMAX</option>
+                                <option value="VSTAR">VSTAR</option>
+                                <option value="GX">GX</option>
+                                <option value="Ultra Rara">Ultra Rara</option>
+                            </select>
+                        </div>
+                        <div class="grupo-filtro">
+                            <select class="select-filtro">
+                                <option value="name">Precio</option>
+                                <option value="price-low">Precio: Menor a
+                                    Mayor</option>
+                                <option value="price-high">Precio: Mayor a
+                                    Menor</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contador-resultados">
+                    <p>Mostrando cartas...</p>
+                </div>
+
+                <div class="container text-center">
+                    <div class="row" style="padding: 10px;">
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img
+                                    src="../img/pikachu-vmax-pokemon-card-electric.png"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pikachu VMAX</h5>
+                                    <p class="card-text">Ultra Rare</p>
+                                    <p class="card-text">$189.99</p>
+                                    <a href="#" class="btn btn-primary">Agregat
+                                        al
+                                        carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img
+                                    src="../img/charizard-vmax-pokemon-card-holographic.png"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Charizard VMAX</h5>
+                                    <p class="card-text">Secret Rare</p>
+                                    <p class="card-text">$299.99</p>
+                                    <a href="#" class="btn btn-primary">Agregat
+                                        al
+                                        carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img
+                                    src="../img/mewtwo-gx-pokemon-card-psychic.png"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mewtwo GX</h5>
+                                    <p class="card-text">GX Rare</p>
+                                    <p class="card-text">$149.99</p>
+                                    <a href="#" class="btn btn-primary">Agregat
+                                        al
+                                        carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sin-resultados" style="display: none;">
+                    <p>No se encontraron cartas con los filtros
+                        seleccionados.</p>
+                </div>
+            </div>
+        </div>
+        <footer class="pie-pagina">
+            <div class="container">
+                <div class="pie-pagina-contenido">
+                    <div class="pie-pagina-seccion">
+                        <div class="pie-pagina-marca">
+                            <div class="logo">⚡</div>
+                            <span class="nombre-marca">PokéCards Pro</span>
+                        </div>
+                        <p>Tu tienda de confianza para cartas Pokémon auténticas
+                            y coleccionables.</p>
+                    </div>
+                    <div class="pie-pagina-seccion">
+                        <h3>Tienda</h3>
+                        <ul>
+                            <li><a href="#">Cartas Nuevas</a></li>
+                            <li><a href="#">Ofertas</a></li>
+                            <li><a href="#">Colecciones</a></li>
+                            <li><a href="#">Accesorios</a></li>
+                        </ul>
+                    </div>
+                    <div class="pie-pagina-seccion">
+                        <h3>Soporte</h3>
+                        <ul>
+                            <li><a href="#">Centro de Ayuda</a></li>
+                            <li><a href="#">Envíos</a></li>
+                            <li><a href="#">Devoluciones</a></li>
+                            <li><a
+                                    href="./pages/contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="pie-pagina-seccion">
+                        <h3>Síguenos</h3>
+                        <div class="enlaces-redes">
+                            <a href="#">📘</a>
+                            <a href="#">🐦</a>
+                            <a href="#">📷</a>
+                            <a href="#">📺</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pie-pagina-inferior">
+                    <p>&copy; 2024 PokéCards Pro. Todos los derechos
+                        reservados.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

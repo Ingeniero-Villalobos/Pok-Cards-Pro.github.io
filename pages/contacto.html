@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto - PokéCards Pro</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="../styles/styles.css">
+    </head>
+    <body>
+        <header class="encabezado">
+            <div class="container">
+                <div class="navegacion-marca">
+                    <div class="logo">⚡</div>
+                    <span class="nombre-marca">PokéCards Pro</span>
+                </div>
+                <nav class="navegacion-menu">
+                    <a href="../index.html" class="navegacion-enlace">Inicio</a>
+                    <a href="./catagolo.html"
+                        class="navegacion-enlace">Catalogo</a>
+                    <a href="./carrito.html"
+                        class="navegacion-enlace active">Carrito</a>
+                    <a href="./perfil.html" class="navegacion-enlace">Perfil</a>
+                    <a href="#" class="navegacion-enlace activo">Contacto</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="formato-universal">
+            <div class="container pagina-contacto">
+                <div class="cabecera-pagina">
+                    <h1 class="titulo-pagina">Contacto y Soporte</h1>
+                    <p class="descripcion-pagina">
+                        ¿Necesitas ayuda? Estamos aquí para asistirte con
+                        cualquier
+                        pregunta sobre tu colección de cartas Pokémon
+                    </p>
+                </div>
+
+                <div class="estadisticas-soporte">
+                    <div class="tarjeta-estadistica-contacto">
+                        <div class="icono-estadistica">⏰</div>
+                        <p class="valor-estadistica">< 2 horas</p>
+                        <p class="etiqueta-estadistica">Tiempo de respuesta
+                            promedio</p>
+                    </div>
+                    <div class="tarjeta-estadistica-contacto">
+                        <div class="icono-estadistica">⭐</div>
+                        <p class="valor-estadistica">98.5%</p>
+                        <p class="etiqueta-estadistica">Satisfacción del
+                            cliente</p>
+                    </div>
+                    <div class="tarjeta-estadistica-contacto">
+                        <div class="icono-estadistica">❓</div>
+                        <p class="valor-estadistica">15,000+</p>
+                        <p class="etiqueta-estadistica">Tickets resueltos</p>
+                    </div>
+                    <div class="tarjeta-estadistica-contacto">
+                        <div class="icono-estadistica">🛡️</div>
+                        <p class="valor-estadistica">24/7</p>
+                        <p class="etiqueta-estadistica">Disponibilidad</p>
+                    </div>
+                </div>
+
+                <div class="cuadricula-contacto">
+                    <div class="seccion-formulario-contacto">
+                        <h2>Envíanos un Mensaje</h2>
+                        <form id="contactForm" class="formulario-contacto">
+                            <div class="fila-formulario">
+                                <div class="grupo-formulario">
+                                    <label for="name">Nombre Completo</label>
+                                    <input type="text" id="name" name="name"
+                                        required>
+                                </div>
+                                <div class="grupo-formulario">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="grupo-formulario">
+                                <label for="category">Categoría</label>
+                                <select id="category" name="category">
+                                    <option value>Selecciona una
+                                        categoría</option>
+                                    <option value="order">Pedidos y
+                                        Envíos</option>
+                                    <option value="cards">Cartas y
+                                        Autenticidad</option>
+                                    <option value="payment">Pagos y
+                                        Devoluciones</option>
+                                    <option value="technical">Soporte
+                                        Técnico</option>
+                                    <option value="other">Otro</option>
+                                </select>
+                            </div>
+                            <div class="grupo-formulario">
+                                <label for="subject">Asunto</label>
+                                <input type="text" id="subject" name="subject"
+                                    required>
+                            </div>
+                            <div class="grupo-formulario">
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" name="message" rows="5"
+                                    placeholder="Describe tu consulta o problema en detalle..."
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">📧
+                                Enviar
+                                Mensaje</button>
+                        </form>
+                    </div>
+
+                    <div class="metodos-contacto">
+                        <div class="tarjeta-contacto">
+                            <h3>Métodos de Contacto</h3>
+                            <div class="metodo-contacto">
+                                <div class="icono-metodo">📧</div>
+                                <div class="info-metodo">
+                                    <h4>Email</h4>
+                                    <p>Respuesta en 24 horas</p>
+                                    <p
+                                        class="valor-contacto">soporte@pokestore.com</p>
+                                    <span class="disponibilidad">24/7</span>
+                                </div>
+                            </div>
+                            <div class="metodo-contacto">
+                                <div class="icono-metodo">📞</div>
+                                <div class="info-metodo">
+                                    <h4>Teléfono</h4>
+                                    <p>Soporte directo</p>
+                                    <p class="valor-contacto">+1 (555)
+                                        123-4567</p>
+                                    <span class="disponibilidad">Lun-Vie
+                                        9AM-6PM</span>
+                                </div>
+                            </div>
+                            <div class="metodo-contacto">
+                                <div class="icono-metodo">💬</div>
+                                <div class="info-metodo">
+                                    <h4>Chat en Vivo</h4>
+                                    <p>Respuesta inmediata</p>
+                                    <p class="valor-contacto">Iniciar chat</p>
+                                    <span class="disponibilidad">Lun-Vie
+                                        9AM-9PM</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tarjeta-contacto">
+                            <h3>Información de la Oficina</h3>
+                            <div class="info-oficina">
+                                <div class="item-info">
+                                    <span class="icono-info">📍</span>
+                                    <div>
+                                        <p class="titulo-info">Dirección</p>
+                                        <p class="texto-info">123 Pokémon
+                                            Street<br>Trading City, TC 12345</p>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <span class="icono-info">⏰</span>
+                                    <div>
+                                        <p class="titulo-info">Horarios de
+                                            Atención</p>
+                                        <p class="texto-info">
+                                            Lunes - Viernes: 9:00 AM - 6:00
+                                            PM<br>
+                                            Sábados: 10:00 AM - 4:00 PM<br>
+                                            Domingos: Cerrado
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tarjeta-contacto">
+                            <h3>Acciones Rápidas</h3>
+                            <div class="acciones-rapidas">
+                                <button class="btn-accion-rapida">🛒 Rastrear mi
+                                    Pedido</button>
+                                <button class="btn-accion-rapida">💳 Problema
+                                    con
+                                    Pago</button>
+                                <button class="btn-accion-rapida">🚚 Cambiar
+                                    Dirección de Envío</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="seccion-faq">
+                    <h2>Preguntas Frecuentes</h2>
+                </div>
+
+                <div class="llamada-centro-ayuda">
+                    <h2>¿No encontraste lo que buscabas?</h2>
+                    <p>Visita nuestro centro de ayuda completo para más recursos
+                        y
+                        guías detalladas</p>
+                    <button type="button" class="btn btn-primary">❓ Ir al Centro
+                        de
+                        Ayuda</button>
+                </div>
+            </div>
+        </div>
+        <footer class="pie-pagina">
+            <div class="container">
+                <div class="pie-pagina-contenido">
+                    <div class="pie-pagina-seccion">
+                        <div class="pie-pagina-marca">
+                            <div class="logo">⚡</div>
+                            <span class="nombre-marca">PokéCards Pro</span>
+                        </div>
+                        <p>Tu tienda de confianza para cartas Pokémon auténticas
+                            y coleccionables.</p>
+                    </div>
+                    <div class="pie-pagina-seccion">
+                        <h3>Tienda</h3>
+                        <ul>
+                            <li><a href="#">Cartas Nuevas</a></li>
+                            <li><a href="#">Ofertas</a></li>
+                            <li><a href="#">Colecciones</a></li>
+                            <li><a href="#">Accesorios</a></li>
+                        </ul>
+                    </div>
+                    <div class="pie-pagina-seccion">
+                        <h3>Soporte</h3>
+                        <ul>
+                            <li><a href="#">Centro de Ayuda</a></li>
+                            <li><a href="#">Envíos</a></li>
+                            <li><a href="#">Devoluciones</a></li>
+                            <li><a
+                                    href="./pages/contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="pie-pagina-seccion">
+                        <h3>Síguenos</h3>
+                        <div class="enlaces-redes">
+                            <a href="#">📘</a>
+                            <a href="#">🐦</a>
+                            <a href="#">📷</a>
+                            <a href="#">📺</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pie-pagina-inferior">
+                    <p>&copy; 2024 PokéCards Pro. Todos los derechos
+                        reservados.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

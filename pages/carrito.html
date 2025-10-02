@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carrito - PokéCards Pro</title>
+        <link rel="stylesheet" href="../styles/styles.css">
+    </head>
+    <body>
+        <div class="formato-universal">
+            <header class="encabezado">
+                <div class="container">
+                    <div class="navegacion-marca">
+                        <div class="logo">⚡</div>
+                        <span class="nombre-marca">PokéCards Pro</span>
+                    </div>
+                    <nav class="navegacion-menu">
+                        <a href="../index.html"
+                            class="navegacion-enlace">Inicio</a>
+                        <a href="./catagolo.html"
+                            class="navegacion-enlace">Catalogo</a>
+                        <a href="#" class="navegacion-enlace activo">Carrito</a>
+                        <a href="./perfil.html"
+                            class="navegacion-enlace">Perfil</a>
+                        <a href="./contacto.html"
+                            class="navegacion-enlace">Contacto</a>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="container pagina-carrito">
+                <div class="carrito-vacio" style="display: none;">
+                    <div class="icono-carrito-vacio">🛒</div>
+                    <h1>Tu carrito está vacío</h1>
+                    <p>Descubre nuestra increíble colección de cartas
+                        Pokémon</p>
+                    <a href="catalogo.html" class="btn btn-primary">Explorar
+                        catálogo</a>
+                </div>
+
+                <div id="cartWithItems">
+                    <div class="cabecera-pagina">
+                        <h1>Carrito de Compras</h1>
+                        <p id="itemCount">0 artículos en tu carrito</p>
+                    </div>
+
+                    <div class="cuadricula-carrito">
+                        <div class="articulos-carrito">
+                            <a href="./catagolo.html"
+                                class="btn btn-outline continuar-comprando">Continuar
+                                comprando</a>
+                        </div>
+
+                        <div class="resumen-pedido">
+                            <div class="seccion-promo">
+                                <h3>Código Promocional</h3>
+                                <div class="input-promo">
+                                    <input type="text"
+                                        placeholder="Ingresa tu código">
+                                    <button
+                                        class="btn btn-outline">Aplicar</button>
+                                </div>
+                                <div class="promo-aplicada"
+                                    style="display: none;">
+                                    <span class="exito-promo">Código POKEMON10
+                                        aplicado -10%</span>
+                                </div>
+                            </div>
+
+                            <div class="seccion-resumen">
+                                <h3>Resumen del Pedido</h3>
+                                <div class="linea-resumen">
+                                    <span>Subtotal</span>
+                                    <span>$0.00</span>
+                                </div>
+                                <div id="discountLine"
+                                    class="linea-resumen descuento"
+                                    style="display: none;">
+                                    <span>Descuento</span>
+                                    <span>-$0.00</span>
+                                </div>
+                                <div class="linea-resumen">
+                                    <span>Envío</span>
+                                    <span>$25.00</span>
+                                </div>
+                                <div class="linea-resumen">
+                                    <span>Impuestos</span>
+                                    <span>$0.00</span>
+                                </div>
+                                <div class="divisor-resumen"></div>
+                                <div class="linea-resumen total">
+                                    <span>Total</span>
+                                    <span>$0.00</span>
+                                </div>
+                                <button class="btn btn-primary btn-pago">💳
+                                    Proceder al Pago</button>
+                            </div>
+
+                            <div class="caracteristicas-seguridad">
+                                <div class="item-seguridad">
+                                    <span class="icono-seguridad">🛡️</span>
+                                    <span>Compra 100% segura</span>
+                                </div>
+                                <div class="item-seguridad">
+                                    <span class="icono-seguridad">🚚</span>
+                                    <span>Envío gratis en compras +$500</span>
+                                </div>
+                                <div class="item-seguridad">
+                                    <span class="icono-seguridad">💳</span>
+                                    <span>Múltiples métodos de pago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="pie-pagina">
+            <div class="container">
+                <div class="pie-pagina-contenido">
+                    <div class="pie-pagina-seccion">
+                        <div class="pie-pagina-marca">
+                            <div class="logo">⚡</div>
+                            <span class="nombre-marca">PokéCards Pro</span>
+                        </div>
+                        <p>Tu tienda de confianza para cartas Pokémon auténticas
+                            y coleccionables.</p>
+                    </div>
+                    <div class="pie-pagina-seccion">
+                        <h3>Tienda</h3>
+                        <ul>
+                            <li><a href="#">Cartas Nuevas</a></li>
+                            <li><a href="#">Ofertas</a></li>
+                            <li><a href="#">Colecciones</a></li>
+                            <li><a href="#">Accesorios</a></li>
+                        </ul>
+                    </div>
+                    <div class="pie-pagina-seccion">
+                        <h3>Soporte</h3>
+                        <ul>
+                            <li><a href="#">Centro de Ayuda</a></li>
+                            <li><a href="#">Envíos</a></li>
+                            <li><a href="#">Devoluciones</a></li>
+                            <li><a
+                                    href="./pages/contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="pie-pagina-seccion">
+                        <h3>Síguenos</h3>
+                        <div class="enlaces-redes">
+                            <a href="#">📘</a>
+                            <a href="#">🐦</a>
+                            <a href="#">📷</a>
+                            <a href="#">📺</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pie-pagina-inferior">
+                    <p>&copy; 2024 PokéCards Pro. Todos los derechos
+                        reservados.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
