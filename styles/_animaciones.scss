@@ -1,0 +1,45 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animar-al-cargar {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+
+  // Anidamiento de retardos de animación
+  .encabezado {
+    animation-delay: 0.2s !important;
+  }
+
+  .seccion-principal {
+    animation-delay: 0.5s !important;
+  }
+
+  .categorias {
+    animation-delay: 0.8s !important;
+  }
+
+  .cartas-destacadas {
+    animation-delay: 1.1s !important;
+  }
+
+  .caracteristicas {
+    animation-delay: 1.4s !important;
+  }
+
+  .boletin {
+    animation-delay: 1.7s !important;
+  }
+
+  .pie-pagina {
+    animation-delay: 2.0s !important;
+  }
+}
