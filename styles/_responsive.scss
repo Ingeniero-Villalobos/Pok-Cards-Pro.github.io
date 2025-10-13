@@ -1,0 +1,136 @@
+// Estilos móviles (Max-width: 767px)
+@media (max-width: $md ) { 
+
+  .boton-menu-movil {
+    display: block;
+  }
+
+  .seccion-principal {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    .principal-titulo {
+      font-size: 2.25rem;
+    }
+
+    .principal-estadisticas {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .categorias .categorias-cuadricula,
+  .caracteristicas .caracteristicas-cuadricula,
+  .cuadricula-carrito,
+  .cuadricula-contacto,
+  .estadisticas-soporte {
+    grid-template-columns: 1fr;
+  }
+
+  .cuadricula-contacto .formulario-contacto .fila-formulario {
+    grid-template-columns: 1fr;
+  }
+
+  .info-perfil {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .seccion-estadisticas {
+    justify-content: center;
+  }
+
+  .pie-pagina-contenido {
+    text-align: center;
+  }
+
+  .pie-pagina-marca,
+  .pie-pagina .enlaces-redes {
+    justify-content: center;
+  }
+}
+
+// Estilos SM (Min-width: 640px)
+@media (min-width: $sm) {
+  .encabezado .caja-busqueda {
+    display: block;
+  }
+
+  .seccion-principal {
+    .principal-botones {
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .principal-estadisticas {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .categorias .categorias-cuadricula {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .boletin .formulario-boletin {
+    flex-direction: row;
+  }
+}
+
+// Estilos MD (Min-width: 768px)
+@media (min-width: $md) {
+  .encabezado {
+    .navegacion-menu {
+      display: flex;
+    }
+  }
+
+  .boton-menu-movil {
+    display: none;
+  }
+
+  .seccion-principal .principal-titulo {
+    font-size: 4rem;
+  }
+
+  .cartas-destacadas .cuadricula-cartas {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cuadricula-contacto {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .cuadricula-contacto .formulario-contacto .fila-formulario {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cuadricula-carrito {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .info-perfil {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .estadisticas-soporte {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+// Estilos LG (Min-width: 1024px)
+@media (min-width: $lg) {
+  .cartas-destacadas .cuadricula-cartas {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .categorias .categorias-cuadricula {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+// Estilos XL (Min-width: 1280px)
+@media (min-width: $xl) {
+  .cartas-destacadas .cuadricula-cartas {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
